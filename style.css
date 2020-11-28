@@ -66,7 +66,7 @@ header {
 }
 
 .top-wrapper {
-  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/top-wrapper.jpg);
+  background-image: url(https://github.com/ka16/portfolio/top-wrapper.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
