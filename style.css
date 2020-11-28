@@ -1,1 +1,382 @@
-https://github.com/ka16/portfolio/blob/6c9095cdf959c8923e27cc1e0b5c4ebc843cf2e8/index.html
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list a {
+  list-style: none;
+  padding: 29px 25px;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.nav-list {
+  display: flex;
+  float: right;
+  margin-right: 40px;
+}
+
+.nav-list a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  /* width: 105px; */
+  float: left;
+  margin-top: 30px;
+  margin-left: 45px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+}
+
+.title a {
+  color: #fff;
+  letter-spacing: 4px;
+  font-family: serif;
+}
+
+.title a:hover {
+  text-decoration: none;
+}
+
+header .container {
+  float: left;
+  width: max-width;
+}
+
+.menu-icon {
+  display: none;
+  color: white;
+  float: right;
+  font-size: 35px;
+  margin: 27px 30px 0 0;
+}
+
+header {
+  background-color: rgba(34, 49, 52, .9);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 87px;
+}
+
+.top-wrapper {
+  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/top-wrapper.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 10px 10px 15px -7px rgba(0, 0, 0, .5);
+}
+
+.introduce-wrapper {
+  margin: bottom: 50px;
+}
+
+.about-me {
+  padding: 100px 0 50px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.about-me p {
+  text-align: center;
+  color: rgb(128, 128, 128);
+  margin-bottom: 40px;
+}
+
+.my-information {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 110px;
+}
+
+.image-information {
+  height: 500px;
+  width: 500px;
+  padding: 0;
+  margin-right: 30px;
+  margin-left: -40px;
+  box-shadow: 5px 5px rgba(100, 100, 100, 0.4);
+}
+
+.text-information {
+  height: 500px;
+  width: 50%;
+  padding: 0;
+  margin-right: -40px;
+}
+
+h3 {
+  font-size: 32px;
+  padding: 0 5px 5px 5px;
+  border-bottom: 2px solid rgb(0, 128, 256);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.furigana {
+  margin: 0 0 3px 4px;
+  letter-spacing: 1px;
+}
+
+.name {
+  font-size: 27px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.text {
+  line-height: 1.5em;
+}
+
+.profile {
+  margin-left: 5px;
+}
+
+.skils ul {
+  padding: 0;
+  margin: 5px 0 0 5px;
+}
+
+.skils li {
+  list-style: none;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.skils-content {
+  padding: 20px 0;
+}
+
+.skil-box p {
+  letter-spacing: 1px;
+  margin-top: 3px;
+}
+
+.skil-box {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.service-wrapper {
+  background-color: rgba(192, 192, 192, .6);
+}
+
+.services {
+  display: flex;
+}
+
+.service-box {
+  background-color: #fff;
+  background-size: cover;
+  /* float: left; */
+  width: calc(33.3333333% - 30px * 3 / 3);
+  margin: 20px;
+  height: 490px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 7px 7px rgba(0, 0, 0, .5);
+}
+
+.service-box h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: -5px;
+}
+
+.service-wrapper {
+  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/service-wrapper.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 950px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+
+.service-text {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 50px 0;
+  padding-top: 100px;
+  letter-spacing: 2px;
+}
+
+.service-text p {
+  line-height: 115%;
+  font-size: 1.15em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.service-box > .fab {
+  color: rgb(0, 64, 256);
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.service-box p {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.service-box > .fas {
+  color: rgb(0, 64, 256);
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.contact-wrapper {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.google-form {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-wrapper {
+  background-color: #f6f6f6;
+}
+
+.contact-wrapper h2 {
+  margin-bottom: 80px;
+}
+
+.works-wrapper {
+  height: 800px;
+  background-color: #000;
+  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/works-wrapper.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+.works-wrapper h2 {
+  color: #fff;
+  padding: 120px 0 100px 0;
+}
+
+.work-box {
+  padding: 0 25px;
+  matgin: 0 auto;
+  text-align:
+}
+
+.works {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.work:hover {
+  background-color: rgba(255, 255, 255, .5);
+}
+
+@media screen and (max-width: 1200px) {
+  .service-wrapper {
+    height: 1850px;
+  }
+  .services {
+    display: block;
+  }
+  .service-box {
+    /* width: calc(33.3333333% - 30px * 3 / 3); */
+    width: 50%;
+    margin: 30px auto;
+    display: block;
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .my-information {
+    display: block;
+    width: 100%;
+  }
+  .image-information {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .text-information {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .work-box {
+    margin-bottom: 50px;
+  }
+  .works-wrapper {
+    height: 1200px;
+  }
+  .works-wrapper h2 {
+    padding: 60px 50px;
+  }
+}
+
+@media screen and (max-width: 1208px) {
+  .work-box {
+    margin-bottom: 40px;
+  }
+  .works-wrapper {
+    height: 1200px;
+  }
+  .works-wrapper h2 {
+    padding: 60px 50px;
+  }
+  .works-wrapper {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 768px;
+  }
+  .text-information {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .service-box {
+    width: 70%;
+    height: 500px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .service-wrapper {
+    height: 2000px;
+  }
+  .service-box {
+    height: 500px;
+  }
+  .contact-wrapper {
+    width: 100%;
+  }
+  .work-box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .service-box {
+    width: 50%;
+  }
+}
+
