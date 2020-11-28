@@ -25,7 +25,6 @@
 }
 
 .title {
-  /* width: 105px; */
   float: left;
   margin-top: 30px;
   margin-left: 45px;
@@ -66,7 +65,7 @@ header {
 }
 
 .top-wrapper {
-  background-image: url(top-wrapper.jpg);
+  background-image: url(https://github.com/ka16/portfolio/blob/main/top-wrapper.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -199,7 +198,7 @@ h3 {
 }
 
 .service-wrapper {
-  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/service-wrapper.jpg);
+  background-image: url(https://github.com/ka16/portfolio/blob/main/service-wrapper.jpg);
   background-position: center;
   background-size: cover;
   height: 950px;
@@ -260,7 +259,7 @@ h3 {
 .works-wrapper {
   height: 800px;
   background-color: #000;
-  background-image: url(file:///Users/kazusa/Library/Mobile%20Documents/com~apple~CloudDocs/Atom/portfolio/img/works-wrapper.jpg);
+  background-image: url(https://github.com/ka16/portfolio/blob/main/works-wrapper.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0 0 15px rgba(0,0,0,.3);
