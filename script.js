@@ -14,3 +14,14 @@ $('header .nav-list a').click(function() {
     }, 500);
     return false;
   });
+
+$('.menu-icon').on('click' , function(){
+    if ($('.menu-icon').hasClass('cross')){
+    $('.menu-icon').removeClass('cross');
+    $('.nav-list').slideUp();
+    }
+    else {
+      $('.menu-icon').addClass('cross');
+      $('.nav-list').slideDown();
+    }
+  });
