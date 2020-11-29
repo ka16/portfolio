@@ -21,7 +21,6 @@
 .nav-list {
   display: flex;
   float: right;
-  margin-right: 40px;
 }
 
 .nav-list a:hover {
