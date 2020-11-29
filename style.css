@@ -16,6 +16,7 @@
 .nav-list li {
   list-style: none;
   float: left;
+  margin-top: 0;
 }
 
 .nav-list {
