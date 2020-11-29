@@ -28,6 +28,7 @@
 .nav-list ul {
   margin: 0;
   height: 87px;
+  margin-right: 40px;
 }
 
 .nav-list a:hover {
