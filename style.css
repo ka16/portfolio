@@ -4,25 +4,27 @@
 }
 
 .nav-list a {
-  list-style: none;
-  padding: 29px 25px;
   font-size: 1.2em;
   letter-spacing: 1px;
   transition-property: background-color;
   transition-duration: 1s;
   transition-timing-function: ease;
   transition-delay: 0s;
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  padding: 29px 25px;
+}
+
+.nav-list li {
+  list-style: none;
+  float: left;
 }
 
 .nav-list {
   display: flex;
   float: right;
   margin-right: 40px;
-}
-
-.nav-list li {
-  float: left;
-  list-style: none;
 }
 
 .nav-list a:hover {
