@@ -19,12 +19,14 @@
 .nav-list li {
   list-style: none;
   float: left;
+  margin-top: 29px;
 }
 
 .nav-list {
   display: flex;
   float: right;
   margin-right: 40px;
+  margin-top: 29px;
 }
 
 .nav-list a:hover {
