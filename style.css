@@ -364,6 +364,13 @@ h3 {
   }
   .nav-list {
     display: none;
+    margin-top: 90px;
+  }
+  .nav-list li {
+    float: none;
+  }
+  .nav-list a {
+    padding: 10px;
   }
   .menu-icon {
     display: block;
