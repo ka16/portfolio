@@ -257,7 +257,7 @@ h3 {
 
 .works-wrapper {
   height: 800px;
-  background-image: url(works-wrapper.jpg);
+  background-image: url(https://raw.githubusercontent.com/ka16/portfolio/main/works-wrapper.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0 0 15px rgba(0,0,0,.3);
