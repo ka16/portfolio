@@ -1,6 +1,6 @@
 var homeBtn = $('.home-btn');
-homeBtn.click(function () {
-  $('body,html').animate({
+homeBtn.click(function() {
+  $('body, html').animate({
     scrollTop: 0
   }, 500);
   return false;
@@ -12,4 +12,5 @@ $('.nav-list a').click(function() {
     $('html, body').animate({            
       'scrollTop': position             
     }, 500);
+    return false;
   });
